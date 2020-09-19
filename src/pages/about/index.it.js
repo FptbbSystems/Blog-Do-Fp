@@ -17,8 +17,8 @@ class About extends React.Component {
     return (
       <Layout>
         <SEO
-          title="About"
-          description="Una breve presentazione di questo blog"
+          title="Sobre"
+          description="Uma breve apresentação, de como foi feito e da utilização desse blog."
           path="about"
         />
         <div className={style.container}>

@@ -39,7 +39,7 @@ class About extends React.Component {
     return (
       <Layout>
         <SEO
-          title="About"
+          title="Sobre"
           description="A brief summary of this blog"
           path="about"
         />

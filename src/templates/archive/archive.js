@@ -15,10 +15,10 @@ const Archive = ({ data, pageContext }) => {
   const nextPage = archivePage < lastArchivePage ? archivePage + 1 : null
 
   return (
-    <Layout title="Archive">
+    <Layout title="Arquivo">
       <SEO
-        title={`Archive | Page ${archivePage}`}
-        description="Old posts"
+        title={`Arquivo | Pagina ${archivePage}`}
+        description="Posts Antigos"
         path={Config.pages.archive}
       />
       <PostList posts={data.allMarkdownRemark.edges} />

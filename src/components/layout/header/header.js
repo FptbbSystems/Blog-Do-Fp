@@ -61,13 +61,13 @@ const Header = () => {
       >
         <ul>
           <li>
-            <Link to={Utils.resolvePageUrl(Config.pages.home)}>Home</Link>
+            <Link to={'/'+Utils.resolvePageUrl(Config.pages.home)}>Inicio</Link>
           </li>
           <li>
-            <Link to={Utils.resolvePageUrl(Config.pages.tag)}>Tags</Link>
+            <Link to={'/'+Utils.resolvePageUrl(Config.pages.tag)}>Tags</Link>
           </li>
           <li>
-            <Link to={Utils.resolvePageUrl(Config.pages.about)}>About</Link>
+            <Link to={'/'+Utils.resolvePageUrl(Config.pages.about)}>Sobre</Link>
           </li>
         </ul>
         <ul>

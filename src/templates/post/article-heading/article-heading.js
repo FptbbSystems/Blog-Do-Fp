@@ -14,20 +14,20 @@ const ArticleHeading = ({ excerpt, date, time, translations }) => (
     </div>
     <label>
       <strong>
-        <FaRegCalendarAlt /> Date:{' '}
+        <FaRegCalendarAlt /> Data:{' '}
       </strong>
       <span>{date}</span>
     </label>
     <label>
       <strong>
-        <FaRegClock /> Time to read:{' '}
+        <FaRegClock /> Tempo para ler:{' '}
       </strong>
       <span>{time}m</span>
     </label>
     {translations ? (
       <label>
         <strong>
-          <MdTranslate /> Translated in:{' '}
+          <MdTranslate /> Traduzido em:{' '}
         </strong>
         {translations
           .sort((translationA, translationB) =>
@@ -58,9 +58,9 @@ ArticleHeading.propTypes = {
 
 // Languages code ISO 639-1 map
 const hreflangMap = {
-  en: 'English',
-  it: 'Italian',
-  fr: 'French',
+  en: 'Ingles',
+  it: 'Italiano',
+  fr: 'Frances',
 }
 
 export default ArticleHeading

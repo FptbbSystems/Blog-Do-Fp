@@ -11,7 +11,7 @@ import Config from '../../config'
 
 const IndexPage = ({ data }) => (
   <Layout>
-    <SEO title="Home" description={Config.siteDescription} path="" />
+    <SEO title="Inicio" description={Config.siteDescription} path="" />
     <PostList posts={data.allMarkdownRemark.edges} />
     <ArchivePagination nextPage={2} />
   </Layout>

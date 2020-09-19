@@ -1,13 +1,13 @@
 
 module.exports = {
-  pathPrefix: '/gatsby-starter-developer-blog',
-  siteUrl: 'https://lgcolella.github.io',
-  siteTitle: 'Luigi Colella',
-  siteDescription: 'Logbook of a software developer',
-  author: 'lcolella',
+  pathPrefix: '/',
+  siteUrl: 'https://b.fptbb.com',
+  siteTitle: 'Blog do Fp',
+  siteDescription: 'Um conteudo um tanto aleatorio.',
+  author: 'fptbb',
   postsForArchivePage: 3,
-  defaultLanguage: 'en',
-  disqusScript: 'https://luigi-colella.disqus.com/embed.js',
+  defaultLanguage: 'pt-br',
+  disqusScript: 'https://blog-do-fp.disqus.com/embed.js',
   pages: {
     home: '/',
     blog: 'blog',
@@ -16,7 +16,7 @@ module.exports = {
     archive: 'archive'
   },
   social: {
-    github: 'https://github.com/lgcolella',
+    github: 'https://github.com/fptbb',
     linkedin: '',
     rss: '/rss.xml'
   },

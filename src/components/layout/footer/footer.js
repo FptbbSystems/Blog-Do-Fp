@@ -1,12 +1,18 @@
 /* Vendor imports */
 import React from 'react'
+import { FaGithub } from 'react-icons/fa'
 /* App imports */
 import style from './footer.module.less'
 
-const Footer = () => (
-  <div className={style.container}>
-    <p>Made with Gatbsy.js, hosted on GitHub Pages</p>
-  </div>
-)
+const Footer = () => {
+  function getDate() {
+    return new Date().getFullYear()
+  }
+  return (
+    <div className={style.container}>
+      <p>Por fptbb, {getDate()} - <a href="https://github.com/fptbb/Props" ><FaGithub size="16" /> Codigo Fonte</a></p>
+    </div>
+  )
+}
 
 export default Footer

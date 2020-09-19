@@ -23,7 +23,7 @@ const Tag = ({ data }) => {
     <Layout title="Tags">
       <SEO
         title="Tags"
-        description="All present tags in the site"
+        description="Todas as Tags do site"
         path={tagPage}
       />
       <div>
