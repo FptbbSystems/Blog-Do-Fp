@@ -40,7 +40,8 @@
     "start": "npm run dev",
     "serve": "gatsby serve",
     "format": "prettier --write \"src/**/*.js\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "git commit -am \"Auto Push\" && git push -u origin master"
   },
   "devDependencies": {
     "prettier": "^2.0.4"

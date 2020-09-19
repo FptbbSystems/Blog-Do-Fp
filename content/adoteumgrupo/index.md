@@ -1,6 +1,6 @@
 ---
 title: Adote um Grupo no Roblox!
-tags: [projetos, programacao]
+tags: []
 date: 2020-05-12T05:25:44.226Z
 path: blog/adoteumgrupo
 cover: ./preview.png
