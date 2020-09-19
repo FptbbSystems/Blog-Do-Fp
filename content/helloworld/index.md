@@ -1,6 +1,6 @@
 ---
 title: Olá mundo!
-tags: [typescript, javascript, rxjs]
+tags: [aleatorio]
 date: 2020-05-10T05:25:44.226Z
 path: blog/helloworld
 cover: ./preview.png

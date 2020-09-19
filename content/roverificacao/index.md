@@ -1,6 +1,6 @@
 ---
 title: Alternativa Brasileira ao Ro-Ver, ou quase.
-tags: [typescript, javascript, rxjs]
+tags: [projetos, programacao]
 date: 2020-05-13T05:25:44.226Z
 path: blog/roverificacao
 cover: ./preview.png

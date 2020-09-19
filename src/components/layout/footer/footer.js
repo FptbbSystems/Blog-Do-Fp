@@ -10,7 +10,7 @@ const Footer = () => {
   }
   return (
     <div className={style.container}>
-      <p>Por fptbb, {getDate()} - <a href="https://github.com/fptbb/Props" ><FaGithub size="16" /> Codigo Fonte</a></p>
+      <p>Por fptbb, {getDate()} - <a href="https://github.com/Fptbb/Blog-Do-Fp" ><FaGithub size="16" /> Codigo Fonte</a></p>
     </div>
   )
 }
