@@ -32,6 +32,6 @@ module.exports = {
     programacao: {
       name: 'Programação',
       description: 'Publicações relacionadas aos meus projetos.'
-    },
+    }
   }
 }
