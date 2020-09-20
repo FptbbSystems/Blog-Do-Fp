@@ -36,16 +36,10 @@ class About extends React.Component {
               />
             </a>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-              cursus venenatis arcu, cursus pretium enim lacinia nec. Duis
-              viverra sagittis neque. Fusce non luctus urna. Vivamus suscipit
-              metus ac posuere egestas. Nunc a pulvinar purus. Vivamus nisi mi,
-              fringilla quis lacus et, sagittis mollis massa. Cras tempus massa
-              quis lobortis laoreet. Pellentesque metus odio, sagittis nec
-              venenatis non, maximus congue eros. Suspendisse pellentesque purus
-              sit amet ante commodo, et molestie mauris aliquet. Proin non nibh
-              libero. Fusce at nulla euismod, condimentum augue quis, convallis
-              justo.
+            This blog was created for my publications, my projects, ideas, studies, etc., using Gatsby, and hosted on Github Pages, I also used a template as a base, and modified it, follow the links of the template framework and tools used.<br/>
+              <a href='https://pages.github.com/'>Github Pages</a><br/>
+              <a href='https://www.gatsbyjs.com/'>Gatsby</a><br/>
+              <a href='https://github.com/lgcolella/gatsby-starter-developer-blog'>Template</a><br/>
             </p>
             <br />
             <h2>Skills</h2>

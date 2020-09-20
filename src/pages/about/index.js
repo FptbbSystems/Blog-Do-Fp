@@ -58,7 +58,7 @@ class About extends React.Component {
               />
             </a>
             <p>
-              This blog was created for my publications, my projects, ideas, studies, etc., using Gatsby, and hosted on Github Pages, I also used a template as a base, and modified it, follow the links of the template framework and tools used.<br/>
+            Esse blog foi criado para publicações minhas, de meus projetos, ideias, estudos, etc, usando Gatsby, e hospedado no Github Pages, tambem usei um template como base, e modifiquei-o, seguem os links do template framework e ferramentas usadas.<br/>
               <a href='https://pages.github.com/'>Github Pages</a><br/>
               <a href='https://www.gatsbyjs.com/'>Gatsby</a><br/>
               <a href='https://github.com/lgcolella/gatsby-starter-developer-blog'>Template</a>
