@@ -41,7 +41,7 @@ class About extends React.Component {
               <a href='https://www.gatsbyjs.com/'>Gatsby</a><br/>
               <a href='https://github.com/lgcolella/gatsby-starter-developer-blog'>Template</a><br/>
             </p>
-          </div>
+          </div> 
         </div>
       </Layout>
     )
