@@ -49,7 +49,7 @@ class About extends React.Component {
           </div>
           <div className={style.content}>
             <h1>Olá, eu sou o Fptbb</h1>
-            <h2>Backend Developer</h2>
+            <h2>Desenvolvedor Backend</h2>
             <p>For the English version click here</p>
             <a href={Utils.resolvePageUrl('../', 'en', 'about')}>
               <Img

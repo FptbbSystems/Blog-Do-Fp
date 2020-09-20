@@ -27,7 +27,7 @@ class About extends React.Component {
           </div>
           <div className={style.content}>
             <h1>Hi, I'm Fptbb!</h1>
-            <h2>Software Developer</h2>
+            <h2>Backend Developer</h2>
             <p>Para a versão em portugues clique aqui</p>
             <a href={Utils.resolvePageUrl('../', '../', 'about')}>
               <Img
