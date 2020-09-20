@@ -41,11 +41,6 @@ class About extends React.Component {
               <a href='https://www.gatsbyjs.com/'>Gatsby</a><br/>
               <a href='https://github.com/lgcolella/gatsby-starter-developer-blog'>Template</a><br/>
             </p>
-            <br />
-            <h2>Skills</h2>
-            <ImageList edges={skillIcons.edges} />
-            <h2>Tools</h2>
-            <ImageList edges={toolIcons.edges} />
           </div>
         </div>
       </Layout>
