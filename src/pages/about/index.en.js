@@ -17,8 +17,8 @@ class About extends React.Component {
     return (
       <Layout>
         <SEO
-          title="Sobre"
-          description="Uma breve apresentação, de como foi feito e da utilização desse blog."
+          title="About"
+          description="A basic summary about this blog"
           path="about"
         />
         <div className={style.container}>
@@ -26,9 +26,9 @@ class About extends React.Component {
             <Img fluid={profilePhoto.childImageSharp.fluid} />
           </div>
           <div className={style.content}>
-            <h1>Ciao, sono Luigi!</h1>
+            <h1>Hi, I'm Fptbb!</h1>
             <h2>Software Developer</h2>
-            <p>For the English version click here</p>
+            <p>Para a versão em portugues clique aqui</p>
             <a href={Utils.resolvePageUrl('../', '../', 'about')}>
               <Img
                 fixed={flagEn.childImageSharp.fixed}
@@ -48,9 +48,9 @@ class About extends React.Component {
               justo.
             </p>
             <br />
-            <h2>Competenze</h2>
+            <h2>Skills</h2>
             <ImageList edges={skillIcons.edges} />
-            <h2>Strumenti</h2>
+            <h2>Tools</h2>
             <ImageList edges={toolIcons.edges} />
           </div>
         </div>
