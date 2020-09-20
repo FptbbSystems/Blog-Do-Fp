@@ -28,7 +28,7 @@ const Tag = ({ data }) => {
       <div>
         {tags.map(tag => (
           <Link
-            to={Utils.resolvePageUrl(tagPage, tag)}
+            to={'/'+Utils.resolvePageUrl(tagPage, tag)}
             className={style.card}
             key={tag}
           >
