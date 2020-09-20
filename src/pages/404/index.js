@@ -13,19 +13,19 @@ import Utils from '../../utils'
 const NotFoundPage = ({ data }) => (
   <Layout>
     <SEO
-      title="404: Page not found"
-      description="404 Page"
+      title="404: Pagina não encontrada"
+      description="Pagina 404"
       path="404"
-      keywords={['javascript', 'frontend', 'blog']}
+      keywords={['error']}
     />
     <div className={style.container}>
       <div className={style.image}>
-        <img src={data.file.publicURL} alt="Gif for 404 error" />
+        <img src={data.file.publicURL} alt="Gif do erro 404" />
       </div>
       <div className={style.message}>
-        <h1>Page not found</h1>
+        <h1>Pagina não encontrada</h1>
         <Button to={Utils.resolvePageUrl(Config.pages.home)}>
-          Return to homepage
+          Retornar para a pagina inicial
         </Button>
       </div>
     </div>

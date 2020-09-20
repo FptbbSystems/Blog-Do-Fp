@@ -32,7 +32,7 @@ const Header = () => {
     >
       <div className={style.titleContainer}>
         <div className={style.title}>
-          <Link to={'/'+Utils.resolvePageUrl(Config.pages.home)}>
+          <Link to={Utils.resolvePageUrl(Config.pages.home)}>
             <h4>{Config.siteTitle}</h4>
             <p
               className={
@@ -61,7 +61,7 @@ const Header = () => {
       >
         <ul>
           <li>
-            <Link to={'/'+Utils.resolvePageUrl(Config.pages.home)}>Inicio</Link>
+            <Link to={Utils.resolvePageUrl(Config.pages.home)}>Inicio</Link>
           </li>
           <li>
             <Link to={'/'+Utils.resolvePageUrl(Config.pages.tag)}>Tags</Link>
