@@ -1,11 +1,13 @@
 /* Vendor imports */
 import React from 'react'
+import moment from 'moment'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 import { FaRegCalendarAlt, FaRegClock } from 'react-icons/fa'
 import { MdTranslate } from 'react-icons/md'
 /* App imports */
 import style from './article-heading.module.less'
+moment.locale('pt-BR');
 
 const ArticleHeading = ({ excerpt, date, time, translations }) => (
   <div className={style.container}>
@@ -16,7 +18,7 @@ const ArticleHeading = ({ excerpt, date, time, translations }) => (
       <strong>
         <FaRegCalendarAlt /> Data:{' '}
       </strong>
-      <span>{date}</span>
+      <span>{moment(date).local().format(`DD [de] MMMM [de] YYYY`)}</span>
     </label>
     <label>
       <strong>

@@ -1,8 +1,8 @@
 {
-  "name": "personal-site",
-  "description": "My personal site",
+  "name": "fp-blog",
+  "description": "Blog pessoal",
   "version": "1.0.0",
-  "author": "lcolella",
+  "author": "fptbb",
   "dependencies": {
     "gatsby": "^2.15.29",
     "gatsby-image": "^2.2.24",
@@ -28,7 +28,8 @@
     "react-dom": "^16.10.2",
     "react-helmet": "^6.0.0",
     "react-icons": "^3.7.0",
-    "react-share": "^4.1.0"
+    "react-share": "^4.1.0",
+    "moment": "^2.28.0"
   },
   "keywords": [
     "gatsby"
