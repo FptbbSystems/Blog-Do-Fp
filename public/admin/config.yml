@@ -4,9 +4,7 @@ backend:
   branch: master
   site_domain: optimistic-varahamihira-edaf78.netlify.app
 
-media_folder_relative: true
-media_folder: 'src/images'
-public_folder: 'public'
+media_folder: './'
 
 collections:
   - name: 'blog'
@@ -24,11 +22,6 @@ collections:
           default: ['aleatorio', 'projetos', 'programacao'],
         }
       - { label: 'Data', name: 'date', widget: 'datetime' }
-      - {
-          label: 'Cover',
-          name: 'cover',
-          widget: 'image',
-          default: '/src/images/preview.png',
-        }
+      - { label: 'Cover', name: 'cover', widget: 'image' }
       - { label: 'Excerpt', name: 'excerpt', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
