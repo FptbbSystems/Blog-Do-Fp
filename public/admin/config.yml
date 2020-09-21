@@ -22,6 +22,12 @@ collections:
           multiple: true,
           options: ['aleatorio', 'projetos', 'programacao'],
         }
+      - {
+          label: 'Path',
+          name: 'path',
+          widget: 'hidden',
+          default: 'blog/{{slug}}',
+        }
       - { label: 'Data', name: 'date', widget: 'datetime' }
       - { label: 'Cover', name: 'cover', widget: 'image' }
       - { label: 'Excerpt', name: 'excerpt', widget: 'string' }
