@@ -4,7 +4,7 @@ backend:
   branch: master
   site_domain: optimistic-varahamihira-edaf78.netlify.app
 
-media_folder: './'
+media_folder: '/src/images'
 logo_url: https://fptbb.com/fp.png
 
 collections:
