@@ -27,7 +27,7 @@ collections:
           label: 'Cover',
           name: 'cover',
           widget: 'image',
-          default: '/src/images/preview.png',
+          default: 'src/images/preview.png',
         }
       - { label: 'Excerpt', name: 'excerpt', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
