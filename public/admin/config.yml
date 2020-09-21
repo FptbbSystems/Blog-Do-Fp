@@ -23,10 +23,10 @@ collections:
           options: ['aleatorio', 'projetos', 'programacao'],
         }
       - {
-          label: 'Path',
+          label: 'Caminho',
           name: 'path',
-          widget: 'title',
-          default: 'blog/Repita o titulo',
+          widget: 'string',
+          default: 'blog/Caminho para a url',
         }
       - { label: 'Data', name: 'date', widget: 'datetime' }
       - { label: 'Cover', name: 'cover', widget: 'image' }
