@@ -9,10 +9,10 @@ media_folder: 'src/images'
 collections:
   - name: 'blog'
     label: 'Blog'
-    folder: '_content/'
+    folder: 'content/blog'
     create: true
-    slug: '{{slug}}'
-    path: '{{slug}}/index.md'
+    slug: 'index'
+    path: '{{slug}}/index'
     fields:
       - { label: 'Titulo', name: 'title', widget: 'string' }
       - { label: 'Tags', name: 'tags', widget: 'list' }
