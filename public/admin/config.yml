@@ -4,7 +4,7 @@ backend:
   branch: master
   site_domain: optimistic-varahamihira-edaf78.netlify.app
 
-media_folder: src/images
+media_folder: 'src/images/'
 public_folder: static
 
 collections:
@@ -12,7 +12,7 @@ collections:
     label: 'Blog'
     folder: 'content/'
     create: true
-    slug: '{{fields.path}}'
+    slug: '{{fields.title}}'
     path: '{{slug}}/index'
     fields:
       - { label: 'Titulo', name: 'title', widget: 'string' }
@@ -23,7 +23,6 @@ collections:
           default: ['aleatorio', 'projetos', 'programacao'],
         }
       - { label: 'Data', name: 'date', widget: 'datetime' }
-      - { label: 'Path', name: 'path', widget: 'string', default: 'NomeDoPost' }
       - {
           label: 'Cover',
           name: 'cover',
