@@ -4,8 +4,8 @@ backend:
   branch: master
   site_domain: optimistic-varahamihira-edaf78.netlify.app
 
-media_folder: 'src/images/'
-public_folder: static
+media_folder: '/src/images'
+public_folder: '/public'
 
 collections:
   - name: 'blog'
@@ -27,7 +27,7 @@ collections:
           label: 'Cover',
           name: 'cover',
           widget: 'image',
-          default: '{{media_folder}}/preview.png',
+          default: '/src/images/preview.png',
         }
       - { label: 'Excerpt', name: 'excerpt', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
