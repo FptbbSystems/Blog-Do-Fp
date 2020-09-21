@@ -25,7 +25,7 @@ collections:
       - {
           label: 'Path',
           name: 'path',
-          widget: 'text',
+          widget: 'title',
           default: 'blog/Repita o titulo',
         }
       - { label: 'Data', name: 'date', widget: 'datetime' }
