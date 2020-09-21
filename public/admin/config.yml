@@ -4,19 +4,29 @@ backend:
   branch: master
   site_domain: optimistic-varahamihira-edaf78.netlify.app
 
-media_folder: "src/images"
+media_folder: 'src/images'
 
 collections:
-  - name: "blog"
-    label: "Blog"
-    folder: "content"
+  - name: 'blog'
+    label: 'Blog'
+    folder: '_content/'
     create: true
-    slug: "{{slug}}"
+    slug: '{{slug}}'
     fields:
-      - {label: "Titulo", name: "title", widget: "string"}
-      - {label: "Tags", name: "tags", widget: "list"}
-      - {label: "Data", name: "date", widget: "datetime"}
-      - {label: "Path", name: "path", widget: "string", default: "blog/NomeDoPost"}
-      - {label: "Cover", name: "cover", widget: "file", default: "src/images/preview.png"}
-      - {label: "Excerpt", name: "excerpt", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - { label: 'Titulo', name: 'title', widget: 'string' }
+      - { label: 'Tags', name: 'tags', widget: 'list' }
+      - { label: 'Data', name: 'date', widget: 'datetime' }
+      - {
+          label: 'Path',
+          name: 'path',
+          widget: 'string',
+          default: 'blog/NomeDoPost',
+        }
+      - {
+          label: 'Cover',
+          name: 'cover',
+          widget: 'file',
+          default: 'src/images/preview.png',
+        }
+      - { label: 'Excerpt', name: 'excerpt', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
