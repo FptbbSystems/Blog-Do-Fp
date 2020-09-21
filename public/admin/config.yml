@@ -4,12 +4,12 @@ backend:
   branch: master
   site_domain: optimistic-varahamihira-edaf78.netlify.app
 
-media_folder: 'src/images'
+media_folder: '_src/images/'
 
 collections:
   - name: 'blog'
     label: 'Blog'
-    folder: 'content/blog'
+    folder: '_content/'
     create: true
     slug: '{{fields.path}}'
     path: '{{slug}}/index'
