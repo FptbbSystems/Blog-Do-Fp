@@ -11,7 +11,7 @@ collections:
     label: 'Blog'
     folder: 'content/blog'
     create: true
-    slug: 'blog/{{fields.path}}'
+    slug: '{{fields.path}}'
     path: '{{slug}}/index'
     fields:
       - { label: 'Titulo', name: 'title', widget: 'string' }
@@ -22,17 +22,12 @@ collections:
           default: ['aleatorio', 'projetos', 'programacao'],
         }
       - { label: 'Data', name: 'date', widget: 'datetime' }
-      - {
-          label: 'Path',
-          name: 'path',
-          widget: 'string',
-          default: 'blog/NomeDoPost',
-        }
+      - { label: 'Path', name: 'path', widget: 'string', default: 'NomeDoPost' }
       - {
           label: 'Cover',
           name: 'cover',
           widget: 'image',
-          default: 'src/images/preview.png',
+          default: '/src/images/preview.png',
         }
       - { label: 'Excerpt', name: 'excerpt', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
