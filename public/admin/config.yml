@@ -9,7 +9,7 @@ media_folder: "src/images"
 collections:
   - name: "blog"
     label: "Blog"
-    folder: "_content/"
+    folder: "content"
     create: true
     slug: "{{slug}}"
     fields:
