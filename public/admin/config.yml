@@ -5,6 +5,7 @@ backend:
   site_domain: optimistic-varahamihira-edaf78.netlify.app
 
 media_folder: './'
+logo_url: https://fptbb.com/fp.png
 
 collections:
   - name: 'blog'
