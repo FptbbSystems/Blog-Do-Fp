@@ -5,8 +5,8 @@ backend:
   site_domain: optimistic-varahamihira-edaf78.netlify.app
 
 media_folder_relative: true
-media_folder: '/src/images'
-public_folder: '/public'
+media_folder: 'src/images'
+public_folder: 'public'
 
 collections:
   - name: 'blog'
