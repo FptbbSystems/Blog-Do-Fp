@@ -18,8 +18,9 @@ collections:
       - {
           label: 'Tags',
           name: 'tags',
-          widget: 'list',
-          default: ['aleatorio', 'projetos', 'programacao'],
+          widget: 'select',
+          multiple: true,
+          options: ['aleatorio', 'projetos', 'programacao'],
         }
       - { label: 'Data', name: 'date', widget: 'datetime' }
       - { label: 'Cover', name: 'cover', widget: 'image' }
