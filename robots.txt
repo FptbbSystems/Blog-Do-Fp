@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://b.fptbb.com/sitemap.xml
+Host: https://b.fptbb.com

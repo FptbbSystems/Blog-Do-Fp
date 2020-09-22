@@ -1,0 +1,35 @@
+backend:
+  name: github
+  repo: Fptbb/Blog-Do-Fp
+  branch: master
+  site_domain: optimistic-varahamihira-edaf78.netlify.app
+
+media_folder: '/src/images'
+logo_url: https://fptbb.com/fp.png
+
+collections:
+  - name: 'blog'
+    label: 'Blog'
+    folder: 'content/'
+    create: true
+    slug: '{{fields.title}}'
+    path: '{{slug}}/index'
+    fields:
+      - { label: 'Titulo', name: 'title', widget: 'string' }
+      - {
+          label: 'Tags',
+          name: 'tags',
+          widget: 'select',
+          multiple: true,
+          options: ['aleatorio', 'projetos', 'programacao'],
+        }
+      - {
+          label: 'Caminho',
+          name: 'path',
+          widget: 'string',
+          default: 'blog/Caminho para a url',
+        }
+      - { label: 'Data', name: 'date', widget: 'datetime' }
+      - { label: 'Cover', name: 'cover', widget: 'image' }
+      - { label: 'Excerpt', name: 'excerpt', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
